@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+
+nav{
+  height: 70px;
+  width: 100%;
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.nav-bar-section{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 70px;
+}
+
+nav h1{
+  font-size: 2rem;
+  color: white;
+}
+
+nav h1 span{
+  font-size: 2rem;
+  color: rgba(3, 59, 34, 0.916);
+}
+
+.log-in-section p{
+
+}
+
+input::placeholder{
+  color: black;
+}
